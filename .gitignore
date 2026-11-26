@@ -1,0 +1,21 @@
+﻿# Secrets & local credentials - NEVER commit
+secrets.env
+*.env
+nodes.json
+connected_servers.json
+kaggle.json
+*.key
+*.pem
+
+# Data & runtime files
+*.db
+*.sqlite*
+*.parquet
+*.zst
+data/
+runs/
+logs/
+__pycache__/
+.venv/
+node_modules/
+.wrangler/
